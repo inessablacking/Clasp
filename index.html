@@ -1,1 +1,142 @@
-test
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Сумки Инессы</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5ede1;
+color:#4a0000;
+}
+
+header{
+background:#8b0000;
+color:white;
+padding:30px;
+text-align:center;
+font-size:32px;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.product{
+background:white;
+border-radius:12px;
+overflow:hidden;
+text-decoration:none;
+color:inherit;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.product:hover{
+transform:translateY(-5px);
+}
+
+.product img{
+width:100%;
+height:300px;
+object-fit:cover;
+display:block;
+}
+
+.price{
+padding:15px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+color:#8b0000;
+}
+
+footer{
+margin-top:50px;
+padding:20px;
+text-align:center;
+background:#8b0000;
+color:white;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+Сумки Инессы
+</header>
+
+<div class="container">
+
+<div class="products">
+
+<a class="product" href="bag1.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+1">
+<div class="price">250 €</div>
+</a>
+
+<a class="product" href="bag2.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+2">
+<div class="price">320 €</div>
+</a>
+
+<a class="product" href="bag3.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+3">
+<div class="price">180 €</div>
+</a>
+
+<a class="product" href="bag4.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+4">
+<div class="price">290 €</div>
+</a>
+
+<a class="product" href="bag5.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+5">
+<div class="price">350 €</div>
+</a>
+
+<a class="product" href="bag6.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+6">
+<div class="price">210 €</div>
+</a>
+
+<a class="product" href="bag7.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+7">
+<div class="price">400 €</div>
+</a>
+
+<a class="product" href="bag8.html">
+<img src="https://placehold.co/600x800/beige/8b0000?text=Сумка+8">
+<div class="price">275 €</div>
+</a>
+
+</div>
+
+</div>
+
+<footer>
+Версия: 2026-06-19 00:00
+</footer>
+
+</body>
+</html>
